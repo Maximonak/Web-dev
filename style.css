@@ -1,0 +1,136 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgb(255, 207, 153);
+    margin: 0px;
+}
+
+.header {
+    background-color: rgb(23, 255, 158);
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    height: 50px;
+}
+
+.header ul {
+    margin: 0px;
+    text-align: right;
+    position: relative;
+    bottom: 35px;
+    padding-right: 30px;
+}
+
+.header li {
+    list-style-type: none;
+    text-align: right;
+    display: inline;
+    margin-right: 15px;
+    padding: 5px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+
+}
+
+.header a {
+    padding: 7px;
+    text-decoration:none;
+    border-radius: 12px;
+    color: ghostwhite;
+    background-color: rgba(235, 74, 0, 0.897);
+    box-shadow: 2px 2px 3px rgb(0 0 0 / 30%);
+
+}
+
+.header img {
+    height: 45px;
+    padding-left: 20px;
+    
+    
+
+}
+
+.container {
+    margin: 10px;
+}
+
+.footer {
+    background-color: rgb(23, 255, 158);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    height: auto;
+    font-size: 0.7em;
+    
+}
+
+.footer ul {
+    margin: 0px;
+}
+
+.footer li {
+    list-style-type: none;
+    margin-right: 10px;
+    text-transform:lowercase;
+
+}
+
+.footer a {
+    text-decoration:none;
+    color: rgb(0, 0, 66);
+    
+}
+
+.catalog {
+    text-align: center;
+    padding: 0px;
+    height: auto;
+}
+
+.catalog > li{
+    list-style-type: none;
+    display:inline-block;
+    text-align: left;
+    width: 30%;
+    
+}
+
+.catalog-itm {
+    border-radius: 10px;
+    background-color: rgb(3, 185, 109);
+    height: auto;
+}
+
+.catalog-itm img {
+    position: relative;
+    left: 5%;
+    width: 90%;
+    padding-top: 15px;
+}
+
+.catalog-itm > a {
+    text-decoration: none;
+    color: rgb(0, 0, 66);
+    font-size: 1.2em;
+}
+
+.catalog-itm > a > p {
+    margin: 0px;
+    padding-left: 15px;
+}
+
+.catalog-text {
+    color: rgb(0, 0, 66);
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+.catalog-text a {
+    padding: 10px;
+    text-decoration:none;
+    border-radius: 12px;
+    color: ghostwhite;
+    background-color: rgba(235, 74, 0, 0.897);
+    box-shadow: 2px 2px 3px rgb(0 0 0 / 30%);
+}
