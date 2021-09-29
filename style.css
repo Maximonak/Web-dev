@@ -134,3 +134,17 @@ body {
     background-color: rgba(235, 74, 0, 0.897);
     box-shadow: 2px 2px 3px rgb(0 0 0 / 30%);
 }
+
+.product-page li{
+    list-style-type: none;
+    text-align: left;
+    display: inline-block;
+    margin-right: 15px;
+    padding: 5px;
+    padding-bottom: 10px;
+    width: 35%;
+}
+
+.product-page > li > img {
+    width: 85%;
+}
